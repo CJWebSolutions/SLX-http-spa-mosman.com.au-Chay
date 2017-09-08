@@ -1,0 +1,411 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+
+
+/*----------------------------------------------------------------
+    Font Family
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+}
+
+
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+h3 {
+    color: #09AE8A;
+}
+
+hr{
+    margin-right: 40%;
+    width:60%;
+}
+
+ body, 
+ .formbuilder-form label, 
+ .contact_detail, 
+ .contact_detail a, 
+ .contact_detail a:hover, 
+ .contact_detail a:focus {
+    color: #111;
+}
+
+#services p, 
+#banner h1, 
+#banner h2, 
+#banner h3, 
+#banner p, 
+header a, 
+header span, 
+#header2a a:hover, 
+#header2a:before, 
+#header2b a,
+#header2b a:hover {
+    color: #fff;
+}
+
+
+
+#services h3 {
+    font-weight: 600;
+    color: rgb(207, 229, 246);
+}
+
+.formbuilder-form label {
+    font-weight:400;
+}
+
+h2, 
+h3, 
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    text-transform: uppercase;
+}
+
+
+#header2b a,
+.btn:hover, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, 
+footer a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/*----------------------------------------------------------------
+    FORM
+----------------------------------------------------------------*/
+
+
+.form, #quote_form_form, #extraFormsContainer .modal-dialog {
+    border-radius: 5px;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0,.2);
+    background-color:rgba(174, 203, 226, 0.74);
+}
+
+/*----------------------------------------------------------------
+    BUTTONS
+----------------------------------------------------------------*/
+
+.btn {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form  {
+    background-color: rgba(20, 104, 168, 1);
+    color: #fff;
+}
+
+
+@media (min-width: 711px) {
+    .btn:hover, 
+    .btn:focus, 
+    .btn:active, 
+    .btn.active, 
+    .open>.dropdown-toggle.btn {
+        color: #09a482;
+        background: rgba(255,255,255,0.1);
+        border: 2px solid #09a482;
+    }
+}
+
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover  {
+    background-color: #fff;
+    color: rgba(20, 104, 168, 1);
+}
+
+
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#contact2f, 
+#contact2e, 
+#contact2d, 
+#contact2c, 
+#contact1b, 
+#content6, 
+#content5 {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+
+#header2, 
+#header2a,
+#header2b, 
+header a, 
+header span, 
+#header2a:before, 
+#header2a a, 
+#header2b a {
+    color: #9db1be;
+}
+
+#header2a a:hover,
+#header2b a:hover{
+        color: #757575;
+}
+ 
+.banner_cover{
+    background-color: #ffffff;
+    opacity: 1;
+    height: 161px;
+}
+#header1 {
+    margin-top: 0px;
+}
+ 
+@media (min-width: 767px) {
+    .banner_cover{
+        height: 95px;
+    }
+    #header1 {
+        margin-top: 0px;
+    }
+    #header2 {
+        margin-top: 0px;
+    }
+}
+
+
+#header{
+    background-position: center 95px;
+    padding: 10px;
+}
+
+#header2 {
+    padding-bottom: 25px;
+}
+
+#header2b {
+    margin-top: -8px;
+}
+#header2b a{
+    line-height: 14px;
+    font-size: 19px;
+}
+#header2a {
+    font-size: 45px;
+}
+#header2a:before {
+    display: none;
+    font-size: 40px;
+    content: '\f098';
+    padding-right: 5px;
+}
+
+#header2a, 
+span, 
+#header2a a {
+    font-weight:100;
+}
+
+
+/*----------------------------------------------------------------
+    Banner
+----------------------------------------------------------------*/
+
+
+#banner {
+    padding: 270px 0 119px;
+}
+
+#banner h1 {
+    font-size:65px;
+}
+#banner p {
+    font-weight: 400;
+}
+
+#banner, 
+#banner h1 {
+    margin:0;
+}
+
+/*----------------------------------------------------------------
+    Services
+----------------------------------------------------------------*/
+
+#services {
+    border-top: 5px solid #4296b4;
+    border-bottom: 5px solid #4296b4;
+}
+#service1,
+#service2,
+#service3,
+#service4 {
+    transition: 0.2s 0.2s ease-out;
+    padding: 25px 10px 25px 10px;
+}
+
+#service1:hover,
+#service2:hover,
+#service3:hover,
+#service4:hover {
+    border: 1px solid #afcbe0;
+    background: rgba(255, 226, 189, 0.2);
+}
+
+/*----------------------------------------------------------------
+    Content
+----------------------------------------------------------------*/
+
+#content .img-responsive {
+    transition: 0.2s 0.2s ease-out;
+}
+#content .img-responsive:hover {
+    transform: scale(1.05);
+}
+#content1b, #content2a, #content3a {
+    padding-top:10px;
+}
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+
+footer *, footer a, footer {
+    color: #0C3C60;
+}
+
+footer {
+    background-color: rgba(175, 203, 224, 1);
+    padding: 25px 0 25px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+    #content1a, 
+    #content2b, 
+    #content3a,
+    #content4b,
+    #content5a {
+        width: 55%;
+    }
+    #content1b, 
+    #content2a, 
+    #content3b,
+    #content4a,
+    #content5b {
+        width: 45%;
+    }
+    #content img {
+        width:100%;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+    #header2 {
+        padding-bottom: 20px;
+    }
+    #header2b a {
+        font-size:22px;
+    }
+    #header2a:before {
+        font-size: 30px;
+    }
+    #header2a {
+        line-height:35px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #banner1 {
+    text-align: center;
+    }
+    hr{
+    width:100%;    
+    margin: 0;
+    }
+
+    #banner {
+        padding: 46px 0 43px;
+    }
+    #service3 {
+        clear:left;
+    }
+    #header2 {
+        padding-top:3px;
+    }
+    #banner, 
+    #banner h1, 
+    #contact h2 {
+        text-align:center;
+    }
+    #banner h1 {
+        font-size:45px;
+    }
+    .btn {
+        white-space: normal;
+    }
+    .content_block {
+        padding-bottom:20px;
+    }
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover {
+        transform: scale(1.0);
+    }
+}
+
+/*----------------------------------------------------------------
+    Animation & Extras
+----------------------------------------------------------------*/
+
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;
+}
+
+@-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}
+}
+
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.btn.active, 
+.open>.dropdown-toggle.btn,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#service1:hover,
+#service2:hover,
+#service3:hover,
+#service4:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
